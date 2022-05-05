@@ -12,11 +12,11 @@ const generatePage = (name, github) => {
       <title>Portfolio Demo</title>
     </head>
   
-    <body>
+    <body style ="color:white; background-color:black; text-decoration:underline;">
     
-      <h1>${name}</h1>
+      <h1 >${name}</h1>
   
-      <h2><a href="https://github.com/${github}">Github</a></h2>
+      <h2 style="background-color:green; width: 50%;"><a href="https://github.com/${github}">Github</a></h2>
     </body>
     </html>
     `;
