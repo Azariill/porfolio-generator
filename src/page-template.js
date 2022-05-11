@@ -1,3 +1,5 @@
+
+
 // create the about section
 const generateAbout = aboutText => {
   if (!aboutText) {
